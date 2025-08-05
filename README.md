@@ -148,7 +148,7 @@ unzip 354M_TokenFormer_Openwebtext2.zip
 python deepy.py train.py configs/incremental_scaling_openwebtext2/354M_to_757M_train_openwebtext2_60k.yml
 ```
 
-## 🎯 模型性能
+## 模型性能
 
 ### 预训练模型列表
 
@@ -173,7 +173,7 @@ python deepy.py train.py configs/incremental_scaling_openwebtext2/354M_to_757M_t
 | TokenFormer-757M | 增量扩展 | 60k | 10.9 | **10倍加速** |
 | TokenFormer-757M | 增量扩展 | 120k | 10.7 | **5倍加速** |
 
-## 🧠 技术架构
+## 技术架构
 
 ### Pattention机制
 
@@ -216,7 +216,7 @@ output = attn_weight @ value
 - **跨模态**检索
 - **多模态**生成
 
-## 高级配置
+## 配置
 
 ### 配置文件详解
 
@@ -258,7 +258,7 @@ learning_rate: 0.0006
 - **Flash Attention**: 高效注意力计算
 
 
-## 📚 参考资料
+## 参考资料
 
 ### 论文引用
 
