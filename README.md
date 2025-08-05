@@ -7,9 +7,9 @@
 
 ## 项目简介
 
-TokenFormer是一个开创性的神经网络架构，将模型参数进行token化实现了**完全基于注意力机制**的计算框架。
+TokenFormer将模型参数进行token化实现了**完全基于注意力机制**的计算框架。
 
-- **参数token化**：首次将模型参数转换为token，与输入数据token在同一注意力空间中交互
+- **参数token化**：将模型参数转换为token，与输入数据token在同一注意力空间中交互
 - **Pattention机制**：提出了参数注意力（Parameter Attention）机制，统一处理token-token和token-parameter交互  
 - **原生可扩展**：支持渐进式模型扩展，无需从头重新训练大模型
 - **架构统一**：token化实现了数据、参数和记忆的统一表示
