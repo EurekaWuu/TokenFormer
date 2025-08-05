@@ -192,7 +192,7 @@ attn_weight = nonlinear_norm_func(attn_weight, norm_activation_type, dim=-1)
 output = attn_weight @ value
 ```
 
-### 关键特性
+### 关键
 
 - **参数token化**：将传统的权重矩阵转换为可学习的token序列
 - **统一注意力**：数据token和参数token在同一注意力空间中交互
